@@ -1,7 +1,9 @@
-import Webcam from "react-webcam";
-import Tesseract from "tesseract.js";
-import { ImgToText } from "./ImgToText";
+import { PageTitle } from "./components/pagetitle";
 
 export default function Home() {
-  return <ImgToText />;
+  return (
+    <>
+      <PageTitle title="home" />
+    </>
+  );
 }
